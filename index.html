@@ -39,6 +39,11 @@
   .go{ display:inline-flex; align-items:center; gap:6px; margin-top:18px; color:var(--accent); font-size:14px; letter-spacing:.12em }
   .go::after{ content:"→"; transition:transform .18s ease }
   a.card:hover .go::after{ transform:translateX(4px) }
+  .foot{
+    margin-top:clamp(36px,7vh,72px);
+    color:var(--sub); font-size:13px; letter-spacing:.35em;
+    opacity:.75; text-align:center;
+  }
 </style>
 </head>
 <body>
@@ -64,5 +69,7 @@
       <span class="go">进入</span>
     </a>
   </div>
+
+  <div class="foot">世界是诗</div>
 </body>
 </html>
