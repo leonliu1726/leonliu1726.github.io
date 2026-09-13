@@ -327,6 +327,17 @@ details.fold .body{padding:4px 2px 22px}
   .lg .facts{gap:8px}
 }
 
+/* ---- 購書一行（電子版與紙本） ---- */
+.hero-buy{text-align:center;margin:16px auto 0;font-size:13px;letter-spacing:.06em;
+  line-height:2.1;font-family:var(--kai),serif}
+.hero-buy .hb-k{color:var(--ink-3);font-size:12px;letter-spacing:.22em}
+.hero-buy a{color:var(--seal);text-decoration:none;border-bottom:1px solid var(--line);
+  padding-bottom:1px}
+.hero-buy a:hover{border-bottom-color:var(--seal)}
+@media (max-width:520px){
+  .hero-buy .hb-sep{display:block;height:2px}
+}
+
 /* ==== 第三轮新增 ==== */
 /* 诗目分组标目 */
 .glbl{display:flex;align-items:baseline;gap:12px;margin:40px 0 16px}
@@ -1206,6 +1217,11 @@ html{scroll-snap-type:y proximity;scroll-padding-top:60px}
 <div class="hero-spread">
 <img alt="《千山獨行》封面與封底 · 文刃 著 · 臺灣中華書局" loading="lazy" src="https://leonliu1726.github.io/palm-poetry-sites/%E4%B8%8A%E7%BA%BF%E5%8C%85_%E5%8D%83%E5%B1%B1%E7%8B%AC%E8%A1%8C/网站图片/封面全图.jpg">
 </img></div>
+<p class="hero-buy">
+<span class="hb-k">紙本</span>　<a href="https://www.chunghwabook.com.tw/" rel="noopener" target="_blank">中華書局</a>　·　<a href="https://www.books.com.tw/products/0010985340" rel="noopener" target="_blank">博客來</a>
+<span class="hb-sep">　　</span>
+<span class="hb-k">電子版</span>　<a href="https://www.kobo.com/ca/zh/ebook/beyond-a-thousand-mountains" rel="noopener" target="_blank">Kobo　CA$2.99</a>
+</p>
 </div>
 <div class="hero-pub">
 <details class="reading-fold"><summary>出版時的編輯室來言<span class="en">Publisher’s note · December 2023</span></summary><div class="publisher-note">
