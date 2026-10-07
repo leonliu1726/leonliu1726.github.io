@@ -24,3 +24,5 @@ The presentation is intentionally restrained: selected poems first; background, 
 - The Palm redirect directory `thepalmpoetryclub` must remain redirects to palmpoetry.org, not be overwritten with an outdated complete site.
 
 This record concerns presentation and preservation; it is not permission to delete works, change ownership or make unrequested content changes.
+
+- 2026-10-06 (Leon): additive only. poet.html: ink portrait 「遙望珠峰」 (`https://leonliu1726.github.io/palm-poetry-sites/%E4%B8%8A%E7%BA%BF%E5%8C%85_%E5%8D%83%E5%B1%B1%E7%8B%AC%E8%A1%8C/%E7%BD%91%E7%AB%99%E5%9B%BE%E7%89%87/%E4%BD%9C%E8%80%85/wenren-ink-everest.jpg`) below the epigraph; the existing 三疊泉 author photo stays. colophon.html: seal 「其志」 image and short seal note under the closing words. reviews.html `#hsu-chih-yuan`: new block for Mr. Hsu's scroll of Wang Anshi's line (the scroll reads 獨行其志; the received text has 其意 — keep the wording 「許之遠先生書作」) with the abridged author's note, plus the 書道之妙 scroll. Mr. Hsu was 91 when these were written and is 92 now; both figures are correct in context.
