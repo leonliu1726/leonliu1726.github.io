@@ -29,7 +29,7 @@ GitHub Desktop → Commit → Push。不需要构建。
 
 ---
 
-## Leon 的六个仓库（2026-10-16 盘点）
+## Leon 的六个仓库（2026-10-16 盘点；poem-tools 当日归档）
 
 | 仓库 | 可见性 | 管什么 | 发布到 |
 |---|---|---|---|
@@ -37,7 +37,7 @@ GitHub Desktop → Commit → Push。不需要构建。
 | `palm-poetry-sites` | 公开 | 掌心诗社官网 | Cloudflare Pages：https://palmpoetry.org/ |
 | `WangShi` | 公开 | 范建华（老建）回忆录《往事》网站；页面带 noindex，搜索引擎不收录 | GitHub Pages：https://leonliu1726.github.io/WangShi/ （大小写须对） |
 | `vtrust-website` | 私有 | V-Trust Corporation 官网 | Cloudflare Pages：https://vtrustcorporation.com/ |
-| `poem-tools` | 私有 | 千山独行配画、翻译、发布脚本 | 不发布（本地工具） |
+| `poem-tools` | 私有 · **已归档（只读）** | 7 月的千山独行翻译配画旧工具（已停用）；分支 `xhs-schedule` 供旅行期小红书云端排帖读取，到 11/06 用完 | 不发布 |
 | `homer` | 私有 | 荷马 Homer 文刃风格写作助手 | Google Cloud Run |
 
 新的诗作、朗诵、影像页一律放进本仓库的子文件夹（像 `yuejunxing/`），再在首页加一张卡片，不再另开仓库。
