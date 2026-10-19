@@ -31,3 +31,14 @@ This record concerns presentation and preservation; it is not permission to dele
 - 2026-10-08 (Leon: "finish everything"): the 17 appreciation pages' poem text now matches the Chung Hwa print edition character for character (26 lines of variant forms, plus 三亞 「夜半敲窗何故喚」); titles 泰嶽歌 / 摩雲崮 follow the book. 卷之 numbering follows the navigation (作者一, 作品二, 畫卷三, 詩評四, 鑑賞五, 行者六); 畫卷 has the standard page head. One copyright block (`.qs-cr`) on every page; romanisation is Wen Ren throughout. The seven appreciation pages without a 小序 never had one; adding them needs English versions first.
 
 - 2026-10-09 (Leon): 畫卷 adds Part II 《國風入懷》, second section 〈疫起萍末〉, ten leaves numbered 99–108 (`网站图片/畫卷/99-2…108-t.webp`), same folio format as Part I (painting leaf with 「《題》·干支季文刃詩意圖」, vertical poem leaf with 其志 seal and 「錄自《千山獨行》第N頁」, thumbnail). Poem text follows the Chung Hwa print edition pp. 182–191 verbatim, except two characters the author set on 2026-10-09: 《感時》「鐵鏈」 (print 鍊) and 《惜武漢》「颳」 (print 刮). Paintings: Gemini on Vertex, each reviewed leaf by leaf; 4, 5, 6 were repainted. No English leaves or appreciation pages for Part II yet. Review record: Drive 「千山獨行_國風入懷_疫起萍末_詩意圖審稿」.
+
+
+## 2026-10-19 用户批准的署名与出版社口径
+
+用户最新明确指示优先于旧口径：文学与社媒署名均采用 Leon Liu（文刃），不再以 Wen Ren 作显示署名。出版社英文以台湾中华书局繁体官网联络页为据，采用 Chung Hwa Book Company, Limited；地域另标 Taiwan。官网：https://www.chunghwabook.com.tw/eforms.php?lang=tw&tb=1 。英文诗题不用 Ode to；保留旧文件名和网址，保护已有链接。诗文与第三方原始中文不作批量润写；历史文件保留。此次仅本机源文件修改，线上未发布。
+画卷新增诗题/地名/序号检索、22篇章跳转，保持236首原序；《宿南海之滨三亚》目录句序依唯一台账已定稿改为「夜半敲窗喚何故」。
+
+
+## 2026-10-19 传播版与折页版首组三首
+
+用户批准分别完成两个版面。editions/index.html 为三首选页；含泰嶽歌、大林寺原址、白鹿洞书院的1080×1440传播PNG、完整诗画对开预览、两份三页PDF。原画完整，诗文取自当前画卷；折页长短诗分别排版。scroll.html增加选页入口，原236首保留。PDF已实际渲染目视检查；34HTML本地引用、68段脚本语法及目录检索模拟检查通过。文件已写入并读回，尚未提交或推送；正式印刷需高分辨率母本。

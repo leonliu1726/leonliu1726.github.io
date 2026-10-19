@@ -42,3 +42,11 @@ img.sealsvg{box-shadow:none;border-radius:0;object-fit:contain;background:none}
 /* 2026-10-08 全站統一版權聲明 */
 .qs-cr{max-width:760px;margin:36px auto 30px;padding:16px 22px 0;border-top:1px solid rgba(0,0,0,.12);text-align:center;font-size:12.5px;line-height:1.95;opacity:.72}
 .qs-cr span{display:inline-block;margin-top:6px;font-style:italic;font-size:12px}
+
+/* 2026-10-19 non-image reading refinement */
+.reader-intro .en,.reading-context .en{color:#5b594f;opacity:1}
+.reader-links{line-height:1.8}.reader-links a{padding:5px 0}
+#scv .sc-text-toggle{margin:24px auto 8px;padding:10px 18px;border:1px solid #b5a58d;background:#f4eee2;color:#302c27;border-radius:3px;font:inherit;cursor:pointer}
+#sc-reading{max-width:760px;margin:16px auto 42px;padding:28px 32px;background:#f6f1e6;color:#292b26;text-align:left;line-height:1.95;font-size:18px}
+#sc-reading[hidden]{display:none!important}#sc-reading h3{font-size:25px;font-weight:400;margin:0 0 20px}#sc-reading p{margin:0 0 12px}#sc-reading .x{font-size:15px;color:#5d574c;border-bottom:1px solid #d5c9b6;padding-bottom:16px}#sc-reading .s{font-size:13px;color:#686052;margin-top:22px}
+@media(max-width:600px){#sc-reading{margin:16px 12px 36px;padding:22px 18px;font-size:18px}.reader-links{gap:8px 18px}}
