@@ -14,7 +14,8 @@
   - 卷首 `index.html`、作者 `poet.html`、作品 `book.html`、畫卷 `scroll.html`、詩評 `reviews.html`、鑑賞 `poems/`（17 首）、行者 `wayfarer.html`、結卷 `colophon.html`
   - `网站图片/畫卷/`：98 幅诗意图折页的网页图（`NN-2` 画页、`NN-3` 诗页、`NN-4` 英文页、`NN-t` 缩略图），源文件在桌面「文学\千山独行 发布\01_诗意图折页_定稿」
   - `网站图片/作者/qizhi-seal*.webp`：全站题头所用「其志」印，与画卷所钤为同一方
-- `index.html`（根目录）：「文刃 · 诗文天地」入口页
+- `index.html`（根目录）：「诗文天地」入口页，三张卡片：掌心诗社 / 千山独行 / 月君行
+- `yuejunxing/`：《月君行》刘东原声朗诵诗画视频页（2026-10-16 上线，https://leonliu1726.github.io/yuejunxing/ ）。视频是从 205MB 原片压到 88MB 的 1080p 版（GitHub 单文件上限 100MB），原片在 Leon 本地
 - `thepalmpoetryclub/`：掌心旧网址的跳转页，一律跳到 https://palmpoetry.org/ ，不得改回完整网站
 - `training-log.txt`：Leon 第一次亲手提交（2026-07-23），留作纪念
 
@@ -28,12 +29,15 @@ GitHub Desktop → Commit → Push。不需要构建。
 
 ---
 
-## Leon 的五个仓库
+## Leon 的六个仓库（2026-10-16 盘点；poem-tools 当日归档）
 
 | 仓库 | 可见性 | 管什么 | 发布到 |
 |---|---|---|---|
-| `leonliu1726.github.io` | 公开 | 《千山獨行》诗集网站（唯一一份）+ 根目录入口页 + 掌心旧网址跳转 | GitHub Pages：https://leonliu1726.github.io/beyondathousandmountains/ |
+| `leonliu1726.github.io` | 公开 | 入口页「诗文天地」+《千山獨行》网站（唯一一份）+《月君行》视频页 + 掌心旧网址跳转 | GitHub Pages：https://leonliu1726.github.io/ |
 | `palm-poetry-sites` | 公开 | 掌心诗社官网 | Cloudflare Pages：https://palmpoetry.org/ |
+| `WangShi` | 公开 | 范建华（老建）回忆录《往事》网站；页面带 noindex，搜索引擎不收录 | GitHub Pages：https://leonliu1726.github.io/WangShi/ （大小写须对） |
 | `vtrust-website` | 私有 | V-Trust Corporation 官网 | Cloudflare Pages：https://vtrustcorporation.com/ |
-| `poem-tools` | 私有 | 千山独行配画、翻译、发布脚本 | 不发布（本地工具） |
+| `poem-tools` | 私有 · **已归档（只读）** | 7 月的千山独行翻译配画旧工具（已停用）；分支 `xhs-schedule` 供旅行期小红书云端排帖读取，到 11/06 用完 | 不发布 |
 | `homer` | 私有 | 荷马 Homer 文刃风格写作助手 | Google Cloud Run |
+
+新的诗作、朗诵、影像页一律放进本仓库的子文件夹（像 `yuejunxing/`），再在首页加一张卡片，不再另开仓库。
