@@ -50,3 +50,6 @@ img.sealsvg{box-shadow:none;border-radius:0;object-fit:contain;background:none}
 #sc-reading{max-width:760px;margin:16px auto 42px;padding:28px 32px;background:#f6f1e6;color:#292b26;text-align:left;line-height:1.95;font-size:18px}
 #sc-reading[hidden]{display:none!important}#sc-reading h3{font-size:25px;font-weight:400;margin:0 0 20px}#sc-reading p{margin:0 0 12px}#sc-reading .x{font-size:15px;color:#5d574c;border-bottom:1px solid #d5c9b6;padding-bottom:16px}#sc-reading .s{font-size:13px;color:#686052;margin-top:22px}
 @media(max-width:600px){#sc-reading{margin:16px 12px 36px;padding:22px 18px;font-size:18px}.reader-links{gap:8px 18px}}
+
+/* Mobile gallery controls stay clear of the poem text. */
+@media(max-width:820px){#scv .bx{margin-top:62px}#scv .nav{top:10px;font-size:28px;padding:2px 12px;background:#3d352b}#scv .pr{left:10px}#scv .nx{left:62px;right:auto}#scv .cl{top:6px}#sc-reading{scroll-margin-top:64px}}
