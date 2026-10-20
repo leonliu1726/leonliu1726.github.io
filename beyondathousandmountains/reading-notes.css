@@ -52,4 +52,4 @@ img.sealsvg{box-shadow:none;border-radius:0;object-fit:contain;background:none}
 @media(max-width:600px){#sc-reading{margin:16px 12px 36px;padding:22px 18px;font-size:18px}.reader-links{gap:8px 18px}}
 
 /* Mobile gallery controls stay clear of the poem text. */
-@media(max-width:820px){#scv .bx{margin-top:62px}#scv .nav{top:10px;font-size:28px;padding:2px 12px;background:#3d352b}#scv .pr{left:10px}#scv .nx{left:62px;right:auto}#scv .cl{top:6px}#sc-reading{scroll-margin-top:64px}}
+@media(max-width:820px){#scv div.bx{margin-top:68px}#scv button.nav{top:10px;bottom:auto;width:44px;height:44px;min-width:0;transform:none;font-size:28px;line-height:1;padding:0;background:#3d352b}#scv button.pr{left:10px;right:auto}#scv button.nx{left:62px;right:auto}#scv button.cl{top:6px;right:16px;width:44px;height:44px;padding:0;line-height:1}#sc-reading{scroll-margin-top:68px}}
